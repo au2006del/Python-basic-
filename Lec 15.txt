@@ -1,0 +1,40 @@
+--Bitwise Operators:
+
+Complement, OR, XOR, Left Shift and Right Shift: 
+
+
+--Complement: (~)(tilde) (It reverses the number of the binary digit)
+>>> ~12
+-13
+>>> ~23
+-24
+
+
+--Binary format Bitwise:  XOR, AND(We use this symbol for AND &) , OR (We use this symbol (pipe) for OR |)
+AND:
+>>> 12 & 13
+12
+ >>> 25 & 30
+24
+
+OR:
+>>> 12 | 13
+13
+
+XOR:
+>>> 12 ^ 13
+1
+>>> 25 ^ 30
+7
+
+--Left Shift: (We use << for left shift)
+>>> 10 << 2
+40
+
+
+--Right Shift: ((We use >> for right shift))
+>>> 10 >> 2
+2
+ 
+
+

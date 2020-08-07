@@ -1,0 +1,11 @@
+--User input  in Python:
+
+
+Please follow this path for further lectures startin from Lec 18:
+
+
+
+C:\Users\au200\PycharmProjects\testproject
+
+C:\Users\au200\Desktop\PERI\COURSES\Python Codes\PyCharm Codes
+

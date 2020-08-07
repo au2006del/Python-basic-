@@ -1,0 +1,96 @@
+--Variables:
+Varibale is a container where we can put our values 
+
+>>> x= 2                                      -> Defined X 
+>>> x+3
+5
+>>> y = 3 									-> Defined Y 
+>>> x + y
+5
+>>> x = 9									-> Chnaged the value of x 
+>>> x + y
+12
+>>> x  										-> to check the current value of X
+9
+>>> abc									   ->BCZ ABC was not defined 
+Traceback (most recent call last):
+  File "<pyshell#65>", line 1, in <module>
+    abc
+NameError: name 'abc' is not defined
+>>> x + 10
+19
+>>> 19 + y   								-> Using the output of the previous one and getting the latest value 
+22
+>>> _ + y									-> -> Using the output of the previous one and getting the latest value 
+25
+
+NOTE: We can use numbers, integers, Strings and decimals 
+
+--How to use strings in variables 
+
+>>> name = 'Anshul'
+>>> name
+'Anshul'
+>>> name = 'Anshul'
+>>> name
+'Anshul'
+>>> name + 'rocks'
+'Anshulrocks'
+>>> name + '  rocks'
+'Anshul  rocks'
+>>> name '  rocks' 						-> We need to give + (plus) sign between the variable and strings to get combined output  
+SyntaxError: invalid syntax
+
+
+-- To fetch the values from the WORD = ANSHUL . We will have to use array 
+
+>>> name [0]
+'A'
+>>> name [6]
+Traceback (most recent call last):			-> IF we are defining more than than the index range We get error 
+  File "<pyshell#79>", line 1, in <module>
+    name [6]
+IndexError: string index out of range
+>>> name [5]
+'l'
+>>> name [-1]  								-> When we define -1 the interpreter starts from Backwards from the defined word 
+'l'
+
+
+NOTE : 							Anshul = (+)[0A][1N][2S][3H][4U][5L]   (-)  [-6A][-5N][-4S][-3H][-2U][-1L]
+
+
+>>> name [0:2]
+'An'
+>>> name [1:4]
+'nsh'
+>>> name [1:]
+'nshul'
+
+--Values once assigned to strings can't be changed..So strings are immutable but we can print new strings by adding from our side 
+>>> name [3:4] = 'hs'
+Traceback (most recent call last):
+  File "<pyshell#90>", line 1, in <module>
+    name [3:4] = 'hs'
+TypeError: 'str' object does not support item assignment
+>>> 
+>>> name [0] = 's'
+Traceback (most recent call last):
+  File "<pyshell#92>", line 1, in <module>
+    name [0] = 's'
+TypeError: 'str' object does not support item assignment
+
+>>> Strong Boy + name
+SyntaxError: invalid syntax
+>>> 
+>>> 'strong boy' + name
+'strong boyAnshul'
+
+>>> myname = 'Anshul Upadhyay'
+>>> len(myname)
+15
+
+>>> print (r'Telusko \n Rocks')   -> It will print thw hole word in one line becasue we used r in the starting thus defining python Interpreter to run it as a raw string 
+Telusko \n Rocks
+
+

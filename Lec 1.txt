@@ -1,0 +1,99 @@
+IDE -> Integrated Development Environment 
+Pycharm -> 
+
+
+Syxtaxs: 
+-- ADDITION: 
+>>> 2+3
+5
+>>> 3 + 4
+7
+-- SUBTRACTION 
+>>> 7 - 4
+3
+--MULITPLICATIONTION 
+>>> 7 * 4
+28
+--DIVISION: 
+>>> 8/2
+4.0
+-- DIVISION to get a integer wihtout Decimals 
+>>> 5 // 2
+2
+>>> 6 + 4 -2
+8
+ 
+>>> 5/2
+2.5
+>>> 5 // 2
+2
+ 
+>>> 8 + 2 * 3
+14
+
+>>> (8+2) * 3
+30
+
+--EXPONENTIAL 
+>>> 2** 3
+8
+
+--Modular 
+>>> 10 /3
+3.3333333333333335
+ 
+>>> 10 // 3
+3
+
+>>> 10 % 3
+1
+
+--STRINGS:
+>>> 'Anshul'
+'Anshul'
+
+--Fucntions: 
+Python has its own builtlt in Fucntions and also we can define our own fucntions.
+
+print (to pass paramters)
+
+
+>>> print ('Anshul')
+Anshul
+>>> print ('Anshul's laptop')
+       
+SyntaxError: invalid syntax 		-> Bcz Pyhton has got confused with the single quotes 
+>>> 
+>>> print ("Anshul's Laptop")
+Anshul's Laptop                  	-> So we use double quote and single quote to get output 
+>>> print ("Anshuls "Laptop"")
+SyntaxError: invalid syntax 		-> We cannot use double quotes for whole string 
+>>> 
+>>> print ('Anshuls "Laptop" ')
+Anshuls "Laptop" 
+>>> print ('Ansul's' "laptop")      -> Though we have defined the String in the single and double quotes but pyhton is getting confused with the single quote given before s.
+       
+SyntaxError: invalid syntax
+>>> print ('Anshul\'s' "Laptop")   -> We use \ to let pyhton know to ignore the string syntax for this atatement 
+Anshul'sLaptop 
+
+-- To print Anshul Multiple times 
+>>> 'Anshul' + 'Anshul'
+'AnshulAnshul'
+>>> 
+>>> 10 * 'Anshul'
+'AnshulAnshulAnshulAnshulAnshulAnshulAnshulAnshulAnshulAnshul'
+
+-- To print the location of the file in one line: 
+>>> print ('c:\docs\Anshul')
+c:\docs\Anshul
+>>> 
+>>> 
+>>> print ('c:\docs\Nshul')        -> wer always have use small letter within the string 
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 7-8: malformed \N character escape 
+>>> print ('c:\docs\nashu') 
+c:\docs
+ashu								-> We got in seperate lines bcz python considered \n as new line 
+
+>>> print (r'c:\docs\nashu')
+c:\docs\nashu  					-> we use r to let python know that we are using it as raw string  

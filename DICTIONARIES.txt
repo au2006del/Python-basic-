@@ -1,0 +1,80 @@
+--DATA DICTIONARY 
+
+>>> data = {1:'Anshul', 2:'Suryansh', 4:'Siddharth',5:'Basu'}
+>>> data
+{1: 'Anshul', 2: 'Suryansh', 4: 'Siddharth', 5: 'Basu'}
+>>> data [2]
+'Suryansh'
+>>> 
+>>> 
+>>> data [3]
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    data [3]
+KeyError: 3
+>>> data.get [1]
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    data.get [1]
+TypeError: 'builtin_function_or_method' object is not subscriptable
+>>> data.get[1]
+Traceback (most recent call last):
+  File "<pyshell#7>", line 1, in <module>
+    data.get[1]
+TypeError: 'builtin_function_or_method' object is not subscriptable
+>>> data.get(1)
+'Anshul'
+>>> 
+>>> data.get (3)
+>>> data.get (4)
+'Siddharth'
+>>> data.get(3)
+>>> print(data.get(3))
+None
+>>> data.get(1, 'Not Found')
+'Anshul'
+>>> data.get(3, 'Not Found')
+'Not Found'
+>>> keys = ['Anshul', 'Sonal', 'Raju', 'Neelam']
+>>> values = ['python','SQL', 'Java', 'Perl']
+>>> data = keys + values
+>>> data
+['Anshul', 'Sonal', 'Raju', 'Neelam', 'python', 'SQL', 'Java', 'Perl']
+>>> data = zip(keys,values)
+>>> data
+<zip object at 0x02C3B080>
+>>> 
+>>> 
+>>> data = dict(zip(keys,values))
+>>> data
+{'Anshul': 'python', 'Sonal': 'SQL', 'Raju': 'Java', 'Neelam': 'Perl'}
+>>> data ['Sonal']
+'SQL'
+>>> data ['Monika']
+Traceback (most recent call last):
+  File "<pyshell#27>", line 1, in <module>
+    data ['Monika']
+KeyError: 'Monika'
+>>> data ['Monika'] = 'PLSQL'
+>>> data
+{'Anshul': 'python', 'Sonal': 'SQL', 'Raju': 'Java', 'Neelam': 'Perl', 'Monika': 'PLSQL'}
+>>> 
+>>> del data ['Raju']
+>>> data
+{'Anshul': 'python', 'Sonal': 'SQL', 'Neelam': 'Perl', 'Monika': 'PLSQL'}
+
+--To check tuples,list and dictionaries together:
+>>> prog = {'JS':'ATOM', 'CS':'VS', 'Python':['Pycharm','Subline'],'Java':{'JSE':'Netbeans','JEEE':'Eclipse'}}
+>>> prog ['JS']
+'ATOM'
+>>> prog ['CS']
+'VS'
+>>> prog ['Python']
+['Pycharm', 'Subline']
+>>> prog ['Java']
+{'JSE': 'Netbeans', 'JEEE': 'Eclipse'}
+
+>>> prog ['Java']['JEEE']
+'Eclipse'
+
+

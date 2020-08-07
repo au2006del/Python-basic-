@@ -1,0 +1,9 @@
+--Working with PyCharm:
+
+a) Click on file 
+b) Click on create a new project 
+c) Under project -> right click on the project name -> New -> Python file
+d) Name the python file as Code1 and click on ok..It automatically saves eith extension as .py
+e) Write the code in the file amed as code1.py and save it 
+f) To run the code go to run  -> and click on run -> click on teh filename 
+g) We can also check each step performed for our code by using debug method -> Run -> Debug 

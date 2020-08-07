@@ -1,0 +1,17 @@
+--SUBLIME TEXT
+--it is the lighter version to run the pyhton code
+https://www.sublimetext.com/3
+
+Windows 64 bit - also available as a portable version
+
+open and install the sublimetext Software
+
+1) Write a program: 
+
+print ('Hello World')
+
+2) Save the file as hello.py 
+3) Go to tools in the bar -> click on Build system -> Select Python -> Click Enter 
+4) Do Ctrl + B to get the output.
+
+

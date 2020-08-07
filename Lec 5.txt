@@ -1,0 +1,75 @@
+--LIST 
+--List are mutable and we can change the values 
+--List can have different data in Python
+--Defining List and checking whether it can print numbers defined in the list as array
+
+>>> nums = [1,2,3,7,8,9,10]
+>>> nums
+[1, 2, 3, 7, 8, 9, 10]
+>>> nums [0]
+1
+>>> nums [5]
+9
+>>> nums [2:]
+[3, 7, 8, 9, 10]
+>>> nums [-1]
+10
+>>> names = ['anshul', 'naveen', 'kiran']
+>>> names
+['anshul', 'naveen', 'kiran']
+>>> 
+>>> 
+>>> values = [9.8, 'anshul', 8]
+>>> values
+[9.8, 'anshul', 8]
+
+--Various methods used with num.
+>>> nums.append(45)     					-> Will add number at the last 							
+>>> nums
+[1, 2, 3, 7, 8, 9, 10, 45]
+>>> 
+>>> nums.insert(3,74)						-> Will insert values 74 at index place 3 
+>>> nums
+[1, 2, 3, 74, 7, 8, 9, 10, 45]
+>>> 
+>>> 
+>>> nums.remove(8)							-> Removes the values 8 
+>>> nums
+[1, 2, 3, 74, 7, 9, 10, 45]
+>>> 
+>>> nums.pop(4)								-> Removes the value at the defined index 
+7
+>>> nums
+[1, 2, 3, 74, 9, 10, 45]
+>>> nums.pop()								-> If we don't define the index value then pop deletes the last value in the array be default s
+45
+>>> nums
+[1, 2, 3, 74, 9, 10]
+>>> nums.sort()
+>>> nums
+[1, 2, 3, 9, 10, 15, 18, 20]
+
+
+--To delete multiple values in an array: 
+>>> nums
+[1, 2, 3, 74, 9, 10]
+>>> del nums[3:]
+>>> nums
+[1, 2, 3]
+
+-- To add values to the array 
+>>> nums
+[1, 2, 3]
+>>> nums.extend([9,10,15,18, 20])
+>>> nums
+[1, 2, 3, 9, 10, 15, 18, 20]
+
+--Mathematical Functions: 
+>>> min (nums)
+1
+>>> max(nums)
+20
+>>> sum(nums)
+78
+>>> nums
+[1, 2, 3, 9, 10, 15, 18, 20]

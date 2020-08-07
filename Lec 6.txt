@@ -1,0 +1,42 @@
+--Tuples and  Set
+--These are immutable and we cannot change there value 
+--Tuples only Supports count and Index
+
+>>> tup = (7,14,21,28,35,42)
+>>> tup
+(7, 14, 21, 28, 35, 42)
+>>> tp [1]
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    tp [1]
+NameError: name 'tp' is not defined
+>>> tup [1]
+14
+>>> tup [1] = 24
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    tup [1] = 24
+TypeError: 'tuple' object does not support item assignment
+>>> tup.count
+>>> tup.index
+
+--SETS: 
+--It is a collection of unique element 
+-- it does not support Indexing 
+
+>>> s = {1,2,3,56,43,25,6,15}
+>>> s
+{1, 2, 3, 6, 43, 15, 56, 25}
+>>> s = {90,50,70,20,60,10}
+>>> s
+{70, 10, 50, 20, 90, 60}
+>>> s = {90,50,70,20,60,10,10 , 60}
+>>> s
+{70, 10, 50, 20, 90, 60}
+>>> s {2}
+SyntaxError: invalid syntax
+>>> s[2]
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    s[2]
+TypeError: 'set' object is not subscriptable

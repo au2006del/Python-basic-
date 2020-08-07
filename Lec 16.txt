@@ -1,0 +1,48 @@
+--IMPORT MATH FUNCTIONS
+
+>>> x = sqrt(25)
+Traceback (most recent call last):
+  File "<pyshell#93>", line 1, in <module>
+    x = sqrt(25)
+NameError: name 'sqrt' is not defined
+>>> x = math.sqrt(25)
+Traceback (most recent call last):
+  File "<pyshell#95>", line 1, in <module>
+    x = math.sqrt(25)
+NameError: name 'math' is not defined
+>>> import math
+>>> x = math.sqrt(25)
+>>> x
+5.0
+>>> x = math.sqrt(15)
+>>> x
+3.872983346207417
+>>> print (math.ceil(2.2))    -> Ceil is used to roundoff the value closer to the before decimal eg: 2.2 -> 2
+3
+>>> print (math.floor(2.2     -> Floor is used to roundoff the value closer to the after decimal eg: 2.6 -> 3
+2
+>>> 3 ** 2
+9
+>>> print(math.pow(3,2))     ->      -> To run the power of 3 (2times) we use math.pow(Value needed to be run, No of times we need to run)
+9.0
+>>> print(math.pi)
+3.141592653589793
+>>> print(math.e)
+2.718281828459045
+>>> m.sqrt(25)
+Traceback (most recent call last):
+  File "<pyshell#109>", line 1, in <module>
+    m.sqrt(25)
+NameError: name 'm' is not defined
+>>> import math as m        -> Instead of everytime running the math module we can create an alias while import the math module eg: import math as m 
+>>> math.sqrt(25)
+5.0
+>>> m.sqrt(25)
+5.0
+
+--If we want to import only 2 functions from Math Module. Then we can simply use:
+
+>>> from math import sqrt, pow
+>>> pow(4,5)
+1024.0
+>>> help('math')

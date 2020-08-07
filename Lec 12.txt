@@ -1,0 +1,46 @@
+Binary, Octal, Decimal, Hexadecimal
+
+Binary -> 0 to 2 as base
+Octal -> o to 8 as base 
+Decimal -> 0 to 9
+Hexadecimal -- Ip Address, IPV6  0 to 16 as base
+
+
+--To check BIN:
+>>> bin(25)
+'0b11001' -
+
+>>> bin(25)
+'0b11001'
+>>> oct(25)
+'0o31'
+>>> hexa(25)
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    hexa(25)
+NameError: name 'hexa' is not defined
+>>>  0b0101
+ 
+SyntaxError: unexpected indent
+>>> 0b0101
+5
+>>> oct(25)
+'0o31'
+>>> hex(25)
+'0x19'
+>>> hex(10)
+'0xa'
+>>> 0xf
+15
+
+homework:
+>>> bin(31,52,65)
+
+>>> bin(3)
+'0b11'
+>>> bin (31)
+'0b11111'
+>>> bin (52)
+'0b110100'
+>>> bin (65)
+'0b1000001'

@@ -1,0 +1,14 @@
+--To get the history of the coomands used in IDLE 
+
+a) Open IDLE 
+b) Go to options
+c) go to keys in the toolbar
+d)  Dearch for history previous
+e) click on get news for selected 
+f) select up arrow from the list 
+g) click ok
+h) click Apply 
+i) Click ok
+
+
+ 

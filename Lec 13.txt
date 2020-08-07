@@ -1,0 +1,53 @@
+Swap two variables: we can simply use the formula: 
+1) a= a+b
+2) b= a-b
+3) a =a-b
+--Easy way in Pyrhon is (a,b) = (b,a)
+--ROT_TWO() -> Is  the function that swaps the numbers in Python
+
+>>> a= 5
+>>> b= 6
+>>> temp = a
+>>> a
+5
+>>> b
+6
+>>> a= b
+>>> b = temp
+>>> a
+6
+>>> b
+5
+>>> a= a+b
+>>> b= a-b
+>>> a =a-b
+>>> a
+5
+>>> b
+6
+
+--Testing :  
+>>> a= 10
+>>> b= 15
+>>> a
+10
+>>> b
+15
+>>> a = a+b
+>>> a
+25
+>>> b = a-b
+>>> b
+10
+>>> a
+25
+>>> a= a-b
+>>> a
+15
+
+
+>>> a,b = b,a
+>>> print(a)
+10
+>>> print(b)
+5
